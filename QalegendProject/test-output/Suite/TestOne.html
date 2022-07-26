@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  TestOne</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestOne</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 26 06:42:06 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38065 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyStorePageadddetailssubmit()'><b>verifyStorePageadddetailssubmit</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductdel()'><b>verifyproductdel</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>1</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyStorePageadddetails()'><b>verifyStorePageadddetails</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyPeoplepageaddwaiterdetails()'><b>verifyPeoplepageaddwaiterdetails</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductedit()'><b>verifyproductedit</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>1</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestClas.verifyLoginInvaliduserInvalidPass()'><b>verifyLoginInvaliduserInvalidPass</b><br>Test class: com.Qalegendproject.Scripts.TestClas<br>Parameters: adsam, admin12</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestClas@13c9d689</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyProductPage()'><b>verifyProductPage</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>2</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyAddproductfields()'><b>verifyAddproductfields</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>1</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifynavigatetoStorePage()'><b>verifynavigatetoStorePage</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductdwnlod()'><b>verifyproductdwnlod</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>5</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestClas.verifyLoginValidUserInvalidPass()'><b>verifyLoginValidUserInvalidPass</b><br>Test class: com.Qalegendproject.Scripts.TestClas<br>Parameters: admin, password123</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestClas@13c9d689</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductprintclose()'><b>verifyproductprintclose</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifynavigatepeoplepage()'><b>verifynavigatepeoplepage</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>1</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestClas.verifyLoginInvalidUserValidPass()'><b>verifyLoginInvalidUserValidPass</b><br>Test class: com.Qalegendproject.Scripts.TestClas<br>Parameters: admin123, password</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestClas@13c9d689</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductuploadclose()'><b>verifyproductuploadclose</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyStorePageadd()'><b>verifyStorePageadd</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductsearch()'><b>verifyproductsearch</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductview()'><b>verifyproductview</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyStorePageedit()'><b>verifyStorePageedit</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>1</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductnext()'><b>verifyproductnext</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestClas.verifyLoginValidUserValidPass()'><b>verifyLoginValidUserValidPass</b><br>Test class: com.Qalegendproject.Scripts.TestClas<br>Parameters: admin, password</td>
+<td></td>
+<td>2</td>
+<td>com.Qalegendproject.Scripts.TestClas@13c9d689</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyPeoplepageaddwaiter()'><b>verifyPeoplepageaddwaiter</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyStorePagesort()'><b>verifyStorePagesort</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyPeoplepageaddwaiterdetailssubmit()'><b>verifyPeoplepageaddwaiterdetailssubmit</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>1</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestStore.verifyStorePagedel()'><b>verifyStorePagedel</b><br>Test class: com.Qalegendproject.Scripts.TestStore</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestStore@75d4a5c2</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductupload()'><b>verifyproductupload</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductprevious()'><b>verifyproductprevious</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyAddproduct()'><b>verifyAddproduct</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductbarcode()'><b>verifyproductbarcode</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+<tr>
+<td title='com.Qalegendproject.Scripts.TestProduct.verifyproductprint()'><b>verifyproductprint</b><br>Test class: com.Qalegendproject.Scripts.TestProduct</td>
+<td></td>
+<td>0</td>
+<td>com.Qalegendproject.Scripts.TestProduct@7c7a06ec</td></tr>
+</table><p>
+</body>
+</html>

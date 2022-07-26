@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="34" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-26T06:42:06 IST" name="Suite" finished-at="2022-07-26T06:42:44 IST" duration-ms="38065">
+    <groups>
+      <group name="Sanity Test">
+        <method signature="TestClas.verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" name="verifyLoginInvaliduserInvalidPass" class="com.Qalegendproject.Scripts.TestClas"/>
+        <method signature="TestClas.verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" name="verifyLoginValidUserValidPass" class="com.Qalegendproject.Scripts.TestClas"/>
+        <method signature="TestProduct.verifyAddproduct()[pri:6, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" name="verifyAddproduct" class="com.Qalegendproject.Scripts.TestProduct"/>
+        <method signature="TestProduct.verifyProductPage()[pri:5, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" name="verifyProductPage" class="com.Qalegendproject.Scripts.TestProduct"/>
+        <method signature="TestProduct.verifyproductsearch()[pri:9, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" name="verifyproductsearch" class="com.Qalegendproject.Scripts.TestProduct"/>
+      </group> <!-- Sanity Test -->
+    </groups>
+    <test started-at="2022-07-26T06:42:06 IST" name="TestOne" finished-at="2022-07-26T06:42:44 IST" duration-ms="38065">
+      <class name="com.Qalegendproject.Scripts.TestProduct">
+        <test-method signature="verifyProductPage()[pri:5, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:17 IST" name="verifyProductPage" finished-at="2022-07-26T06:42:20 IST" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPage -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:20 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductPage status=SUCCESS method=TestProduct.verifyProductPage()[pri:5, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyAddproduct()[pri:6, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:20 IST" name="verifyAddproduct" finished-at="2022-07-26T06:42:20 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddproduct -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:20 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddproduct status=SUCCESS method=TestProduct.verifyAddproduct()[pri:6, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyAddproductfields()[pri:7, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:20 IST" name="verifyAddproductfields" finished-at="2022-07-26T06:42:22 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddproductfields -->
+        <test-method signature="verifyproductdwnlod()[pri:8, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:22 IST" name="verifyproductdwnlod" finished-at="2022-07-26T06:42:27 IST" duration-ms="5383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductdwnlod -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:22 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddproductfields status=SUCCESS method=TestProduct.verifyAddproductfields()[pri:7, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:27 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductdwnlod status=SUCCESS method=TestProduct.verifyproductdwnlod()[pri:8, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductsearch()[pri:9, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:27 IST" name="verifyproductsearch" finished-at="2022-07-26T06:42:27 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductsearch -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:27 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductsearch status=SUCCESS method=TestProduct.verifyproductsearch()[pri:9, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductview()[pri:10, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:27 IST" name="verifyproductview" finished-at="2022-07-26T06:42:28 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductview -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:28 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductview status=SUCCESS method=TestProduct.verifyproductview()[pri:10, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductbarcode()[pri:11, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:28 IST" name="verifyproductbarcode" finished-at="2022-07-26T06:42:29 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductbarcode -->
+        <test-method signature="verifyproductedit()[pri:12, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:29 IST" name="verifyproductedit" finished-at="2022-07-26T06:42:30 IST" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductedit -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:29 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductbarcode status=SUCCESS method=TestProduct.verifyproductbarcode()[pri:11, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:30 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductedit status=SUCCESS method=TestProduct.verifyproductedit()[pri:12, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductdel()[pri:13, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:30 IST" name="verifyproductdel" finished-at="2022-07-26T06:42:32 IST" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductdel -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:32 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductdel status=SUCCESS method=TestProduct.verifyproductdel()[pri:13, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductnext()[pri:14, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:32 IST" name="verifyproductnext" finished-at="2022-07-26T06:42:33 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductnext -->
+        <test-method signature="verifyproductprevious()[pri:15, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="verifyproductprevious" finished-at="2022-07-26T06:42:33 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductprevious -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductnext status=SUCCESS method=TestProduct.verifyproductnext()[pri:14, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductprevious status=SUCCESS method=TestProduct.verifyproductprevious()[pri:15, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductprint()[pri:16, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="verifyproductprint" finished-at="2022-07-26T06:42:33 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductprint -->
+        <test-method signature="verifyproductprintclose()[pri:17, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="verifyproductprintclose" finished-at="2022-07-26T06:42:33 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductprintclose -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductprint status=SUCCESS method=TestProduct.verifyproductprint()[pri:16, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductprintclose status=SUCCESS method=TestProduct.verifyproductprintclose()[pri:17, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductupload()[pri:18, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:33 IST" name="verifyproductupload" finished-at="2022-07-26T06:42:34 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductupload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:34 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductupload status=SUCCESS method=TestProduct.verifyproductupload()[pri:18, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyproductuploadclose()[pri:19, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:34 IST" name="verifyproductuploadclose" finished-at="2022-07-26T06:42:34 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductuploadclose -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec]" started-at="2022-07-26T06:42:34 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyproductuploadclose status=SUCCESS method=TestProduct.verifyproductuploadclose()[pri:19, instance:com.Qalegendproject.Scripts.TestProduct@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.Qalegendproject.Scripts.TestProduct -->
+      <class name="com.Qalegendproject.Scripts.TestStore">
+        <test-method signature="verifynavigatetoStorePage()[pri:20, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:34 IST" name="verifynavigatetoStorePage" finished-at="2022-07-26T06:42:35 IST" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynavigatetoStorePage -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:35 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifynavigatetoStorePage status=SUCCESS method=TestStore.verifynavigatetoStorePage()[pri:20, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyStorePageadd()[pri:21, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:35 IST" name="verifyStorePageadd" finished-at="2022-07-26T06:42:36 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePageadd -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:36 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStorePageadd status=SUCCESS method=TestStore.verifyStorePageadd()[pri:21, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyStorePageadddetails()[pri:22, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:36 IST" name="verifyStorePageadddetails" finished-at="2022-07-26T06:42:37 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePageadddetails -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:37 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStorePageadddetails status=SUCCESS method=TestStore.verifyStorePageadddetails()[pri:22, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyStorePageadddetailssubmit()[pri:23, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:37 IST" name="verifyStorePageadddetailssubmit" finished-at="2022-07-26T06:42:38 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePageadddetailssubmit -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:38 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStorePageadddetailssubmit status=SUCCESS method=TestStore.verifyStorePageadddetailssubmit()[pri:23, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyStorePagesort()[pri:24, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:38 IST" name="verifyStorePagesort" finished-at="2022-07-26T06:42:38 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePagesort -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:38 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStorePagesort status=SUCCESS method=TestStore.verifyStorePagesort()[pri:24, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyStorePageedit()[pri:25, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:38 IST" name="verifyStorePageedit" finished-at="2022-07-26T06:42:39 IST" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePageedit -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:39 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStorePageedit status=SUCCESS method=TestStore.verifyStorePageedit()[pri:25, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyStorePagedel()[pri:26, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:39 IST" name="verifyStorePagedel" finished-at="2022-07-26T06:42:40 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePagedel -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:40 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStorePagedel status=SUCCESS method=TestStore.verifyStorePagedel()[pri:26, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifynavigatepeoplepage()[pri:27, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:40 IST" name="verifynavigatepeoplepage" finished-at="2022-07-26T06:42:42 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynavigatepeoplepage -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:42 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifynavigatepeoplepage status=SUCCESS method=TestStore.verifynavigatepeoplepage()[pri:27, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyPeoplepageaddwaiter()[pri:28, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:42 IST" name="verifyPeoplepageaddwaiter" finished-at="2022-07-26T06:42:42 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPeoplepageaddwaiter -->
+        <test-method signature="verifyPeoplepageaddwaiterdetails()[pri:29, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:42 IST" name="verifyPeoplepageaddwaiterdetails" finished-at="2022-07-26T06:42:43 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPeoplepageaddwaiterdetails -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:42 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPeoplepageaddwaiter status=SUCCESS method=TestStore.verifyPeoplepageaddwaiter()[pri:28, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:43 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPeoplepageaddwaiterdetails status=SUCCESS method=TestStore.verifyPeoplepageaddwaiterdetails()[pri:29, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyPeoplepageaddwaiterdetailssubmit()[pri:30, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:43 IST" name="verifyPeoplepageaddwaiterdetailssubmit" finished-at="2022-07-26T06:42:44 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPeoplepageaddwaiterdetailssubmit -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2]" started-at="2022-07-26T06:42:44 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPeoplepageaddwaiterdetailssubmit status=SUCCESS method=TestStore.verifyPeoplepageaddwaiterdetailssubmit()[pri:30, instance:com.Qalegendproject.Scripts.TestStore@75d4a5c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.Qalegendproject.Scripts.TestStore -->
+      <class name="com.Qalegendproject.Scripts.TestClas">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:06 IST" name="beforeTest" finished-at="2022-07-26T06:42:12 IST" duration-ms="5667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyLoginValidUserInvalidPass(java.lang.String,java.lang.String)[pri:1, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:12 IST" name="verifyLoginValidUserInvalidPass" data-provider="ValidUserInvalidPass" finished-at="2022-07-26T06:42:13 IST" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginValidUserInvalidPass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:13 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginValidUserInvalidPass status=SUCCESS method=TestClas.verifyLoginValidUserInvalidPass(java.lang.String,java.lang.String)[pri:1, instance:com.Qalegendproject.Scripts.TestClas@13c9d689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyLoginInvalidUserValidPass(java.lang.String,java.lang.String)[pri:2, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:13 IST" name="verifyLoginInvalidUserValidPass" data-provider="InvalidUserValidPass" finished-at="2022-07-26T06:42:14 IST" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInvalidUserValidPass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:14 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginInvalidUserValidPass status=SUCCESS method=TestClas.verifyLoginInvalidUserValidPass(java.lang.String,java.lang.String)[pri:2, instance:com.Qalegendproject.Scripts.TestClas@13c9d689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:14 IST" name="verifyLoginInvaliduserInvalidPass" data-provider="InvalidUserInvalidPass" finished-at="2022-07-26T06:42:15 IST" duration-ms="739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adsam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInvaliduserInvalidPass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:15 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginInvaliduserInvalidPass status=SUCCESS method=TestClas.verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestClas@13c9d689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:15 IST" name="verifyLoginValidUserValidPass" data-provider="ValidUserValidPass" finished-at="2022-07-26T06:42:17 IST" duration-ms="2558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginValidUserValidPass -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:17 IST" name="takeScreenShotOnFailure" finished-at="2022-07-26T06:42:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginValidUserValidPass status=SUCCESS method=TestClas.verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestClas@13c9d689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Qalegendproject.Scripts.TestClas@13c9d689]" started-at="2022-07-26T06:42:44 IST" name="afterTest" finished-at="2022-07-26T06:42:44 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Qalegendproject.Scripts.TestClas -->
+    </test> <!-- TestOne -->
+  </suite> <!-- Suite -->
+</testng-results>
