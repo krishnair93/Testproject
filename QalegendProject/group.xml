@@ -11,7 +11,7 @@
 </run>
 </groups>
     <classes>
-       <class name="com.Qalegendproject.Scripts.TestClas"/>
+       <class name="com.Qalegendproject.Scripts.TestLogin"/>
       <class name="com.Qalegendproject.Scripts.TestProduct"/>
    <class name="com.Qalegendproject.Scripts.TestStore"/>
     </classes>  

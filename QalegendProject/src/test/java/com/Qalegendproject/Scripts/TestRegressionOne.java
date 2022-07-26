@@ -13,7 +13,7 @@ import com.Qalegendproject.Constants.Constants;
 import com.Qalegendproject.Pages.LoginPage;
 import com.Qalegendproject.Utilities.ExcelUtilities;
 
-public class TestClas extends TestBase {
+public class TestRegressionOne extends TestBase {
 	LoginPage objLogin;
 
 	/*******************************************************************************

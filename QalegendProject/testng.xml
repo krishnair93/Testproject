@@ -6,7 +6,7 @@
   <test thread-count="5" name="TestOne">
   <parameter name ="browser" value="chrome"></parameter>	
     <classes>
-       <class name="com.Qalegendproject.Scripts.TestClas"/>
+       <class name="com.Qalegendproject.Scripts.TestLogin"/>
       <class name="com.Qalegendproject.Scripts.TestProduct"/>
    <class name="com.Qalegendproject.Scripts.TestStore"/>
     </classes>  

@@ -10,7 +10,7 @@
   <parameter name ="browser" value="chrome"/>
 
     <classes>
-       <class name="com.Qalegendproject.Scripts.TestClas"/>
+       <class name="com.Qalegendproject.Scripts.TestLogin"/>
       <class name="com.Qalegendproject.Scripts.TestProduct"/>
   
     </classes>  
