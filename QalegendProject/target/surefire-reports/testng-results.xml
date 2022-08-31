@@ -2,23 +2,23 @@
 <testng-results ignored="4" total="34" passed="30" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-25T10:42:25 IST" name="Suite" finished-at="2022-07-25T10:43:00 IST" duration-ms="34593">
+  <suite started-at="2022-08-30T13:51:00 IST" name="Suite" finished-at="2022-08-30T13:51:38 IST" duration-ms="38600">
     <groups>
       <group name="Sanity Test">
-        <method signature="TestClas.verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" name="verifyLoginInvaliduserInvalidPass" class="com.Qalegendproject.Scripts.TestClas"/>
-        <method signature="TestClas.verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" name="verifyLoginValidUserValidPass" class="com.Qalegendproject.Scripts.TestClas"/>
+        <method signature="TestLogin.verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" name="verifyLoginInvaliduserInvalidPass" class="com.Qalegendproject.Scripts.TestLogin"/>
+        <method signature="TestLogin.verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" name="verifyLoginValidUserValidPass" class="com.Qalegendproject.Scripts.TestLogin"/>
         <method signature="TestProduct.verifyAddproduct()[pri:6, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" name="verifyAddproduct" class="com.Qalegendproject.Scripts.TestProduct"/>
         <method signature="TestProduct.verifyProductPage()[pri:5, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" name="verifyProductPage" class="com.Qalegendproject.Scripts.TestProduct"/>
         <method signature="TestProduct.verifyproductsearch()[pri:9, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" name="verifyproductsearch" class="com.Qalegendproject.Scripts.TestProduct"/>
       </group> <!-- Sanity Test -->
     </groups>
-    <test started-at="2022-07-25T10:42:25 IST" name="TestOne" finished-at="2022-07-25T10:43:00 IST" duration-ms="34593">
+    <test started-at="2022-08-30T13:51:00 IST" name="TestOne" finished-at="2022-08-30T13:51:38 IST" duration-ms="38600">
       <class name="com.Qalegendproject.Scripts.TestProduct">
-        <test-method signature="verifyProductPage()[pri:5, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:35 IST" name="verifyProductPage" finished-at="2022-07-25T10:42:37 IST" duration-ms="2125" status="PASS">
+        <test-method signature="verifyProductPage()[pri:5, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:12 IST" name="verifyProductPage" finished-at="2022-08-30T13:51:14 IST" duration-ms="2275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPage -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:37 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:14 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyAddproduct()[pri:6, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:37 IST" name="verifyAddproduct" finished-at="2022-07-25T10:42:37 IST" duration-ms="622" status="PASS">
+        <test-method signature="verifyAddproduct()[pri:6, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:14 IST" name="verifyAddproduct" finished-at="2022-08-30T13:51:15 IST" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddproduct -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:37 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:15 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:15 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyAddproductfields()[pri:7, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:37 IST" name="verifyAddproductfields" finished-at="2022-07-25T10:42:39 IST" duration-ms="1297" status="PASS">
+        <test-method signature="verifyAddproductfields()[pri:7, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:15 IST" name="verifyAddproductfields" finished-at="2022-08-30T13:51:16 IST" duration-ms="1148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddproductfields -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:39 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:16 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductdwnlod()[pri:8, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:39 IST" name="verifyproductdwnlod" finished-at="2022-07-25T10:42:44 IST" duration-ms="5344" status="PASS">
+        <test-method signature="verifyproductdwnlod()[pri:8, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:16 IST" name="verifyproductdwnlod" finished-at="2022-08-30T13:51:22 IST" duration-ms="5461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductdwnlod -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:44 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:22 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:22 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,11 +74,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductsearch()[pri:9, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:44 IST" name="verifyproductsearch" finished-at="2022-07-25T10:42:44 IST" duration-ms="256" status="PASS">
+        <test-method signature="verifyproductsearch()[pri:9, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:22 IST" name="verifyproductsearch" finished-at="2022-08-30T13:51:22 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductsearch -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:44 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:22 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:22 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,11 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductview()[pri:10, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:44 IST" name="verifyproductview" finished-at="2022-07-25T10:42:45 IST" duration-ms="751" status="PASS">
+        <test-method signature="verifyproductview()[pri:10, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:22 IST" name="verifyproductview" finished-at="2022-08-30T13:51:22 IST" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductview -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:45 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:22 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:22 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductbarcode()[pri:11, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:45 IST" name="verifyproductbarcode" finished-at="2022-07-25T10:42:46 IST" duration-ms="581" status="PASS">
+        <test-method signature="verifyproductbarcode()[pri:11, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:22 IST" name="verifyproductbarcode" finished-at="2022-08-30T13:51:23 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductbarcode -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:46 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:23 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:23 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,11 +119,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductedit()[pri:12, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:46 IST" name="verifyproductedit" finished-at="2022-07-25T10:42:47 IST" duration-ms="1531" status="PASS">
+        <test-method signature="verifyproductedit()[pri:12, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:23 IST" name="verifyproductedit" finished-at="2022-08-30T13:51:24 IST" duration-ms="1394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductedit -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:47 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:24 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:24 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,11 +134,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductdel()[pri:13, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:47 IST" name="verifyproductdel" finished-at="2022-07-25T10:42:48 IST" duration-ms="1071" status="PASS">
+        <test-method signature="verifyproductdel()[pri:13, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:24 IST" name="verifyproductdel" finished-at="2022-08-30T13:51:26 IST" duration-ms="1376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductdel -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:48 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:48 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:26 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:26 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,11 +149,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductnext()[pri:14, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:48 IST" name="verifyproductnext" finished-at="2022-07-25T10:42:49 IST" duration-ms="667" status="PASS">
+        <test-method signature="verifyproductnext()[pri:14, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:26 IST" name="verifyproductnext" finished-at="2022-08-30T13:51:26 IST" duration-ms="670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductnext -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:49 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:26 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:26 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -164,11 +164,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductprevious()[pri:15, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:49 IST" name="verifyproductprevious" finished-at="2022-07-25T10:42:49 IST" duration-ms="69" status="PASS">
+        <test-method signature="verifyproductprevious()[pri:15, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:26 IST" name="verifyproductprevious" finished-at="2022-08-30T13:51:26 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductprevious -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:49 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:26 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:26 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,15 +179,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductprint()[pri:16, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:49 IST" name="verifyproductprint" finished-at="2022-07-25T10:42:49 IST" duration-ms="59" status="PASS">
+        <test-method signature="verifyproductprint()[pri:16, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:26 IST" name="verifyproductprint" finished-at="2022-08-30T13:51:27 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyproductprint -->
-        <test-method signature="verifyproductprintclose()[pri:17, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:49 IST" name="verifyproductprintclose" finished-at="2022-07-25T10:42:50 IST" duration-ms="578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyproductprintclose -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:49 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:27 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:27 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,11 +194,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductupload()[pri:18, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:50 IST" name="verifyproductupload" finished-at="2022-07-25T10:42:51 IST" duration-ms="961" status="PASS">
+        <test-method signature="verifyproductprintclose()[pri:17, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:27 IST" name="verifyproductprintclose" finished-at="2022-08-30T13:51:27 IST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyproductupload -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:50 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:50 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyproductprintclose -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:27 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:27 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,11 +209,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyproductuploadclose()[pri:19, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:51 IST" name="verifyproductuploadclose" finished-at="2022-07-25T10:42:51 IST" duration-ms="64" status="PASS">
+        <test-method signature="verifyproductupload()[pri:18, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:27 IST" name="verifyproductupload" finished-at="2022-08-30T13:51:28 IST" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyproductuploadclose -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:51 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:51 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyproductupload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:28 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:28 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -228,7 +224,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-07-25T10:42:51 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyproductuploadclose()[pri:19, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:28 IST" name="verifyproductuploadclose" finished-at="2022-08-30T13:51:28 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproductuploadclose -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestProduct@7c729a55]" started-at="2022-08-30T13:51:28 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:28 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,11 +241,11 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.Qalegendproject.Scripts.TestProduct -->
       <class name="com.Qalegendproject.Scripts.TestStore">
-        <test-method signature="verifynavigatetoStorePage()[pri:20, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:51 IST" name="verifynavigatetoStorePage" finished-at="2022-07-25T10:42:52 IST" duration-ms="867" status="PASS">
+        <test-method signature="verifynavigatetoStorePage()[pri:20, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:28 IST" name="verifynavigatetoStorePage" finished-at="2022-08-30T13:51:30 IST" duration-ms="1312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifynavigatetoStorePage -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:52 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:30 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,11 +256,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyStorePageadd()[pri:21, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:52 IST" name="verifyStorePageadd" finished-at="2022-07-25T10:42:52 IST" duration-ms="601" status="PASS">
+        <test-method signature="verifyStorePageadd()[pri:21, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:30 IST" name="verifyStorePageadd" finished-at="2022-08-30T13:51:30 IST" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStorePageadd -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:52 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:30 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -271,11 +271,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyStorePageadddetails()[pri:22, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:52 IST" name="verifyStorePageadddetails" finished-at="2022-07-25T10:42:53 IST" duration-ms="705" status="PASS">
+        <test-method signature="verifyStorePageadddetails()[pri:22, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:30 IST" name="verifyStorePageadddetails" finished-at="2022-08-30T13:51:31 IST" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStorePageadddetails -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:53 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:31 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:31 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,11 +286,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyStorePageadddetailssubmit()[pri:23, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:53 IST" name="verifyStorePageadddetailssubmit" finished-at="2022-07-25T10:42:54 IST" duration-ms="785" status="PASS">
+        <test-method signature="verifyStorePageadddetailssubmit()[pri:23, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:31 IST" name="verifyStorePageadddetailssubmit" finished-at="2022-08-30T13:51:32 IST" duration-ms="898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStorePageadddetailssubmit -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:54 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:32 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:32 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,11 +301,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyStorePagesort()[pri:24, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:54 IST" name="verifyStorePagesort" finished-at="2022-07-25T10:42:54 IST" duration-ms="635" status="PASS">
+        <test-method signature="verifyStorePagesort()[pri:24, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:32 IST" name="verifyStorePagesort" finished-at="2022-08-30T13:51:32 IST" duration-ms="631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStorePagesort -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:54 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyStorePageedit()[pri:25, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:32 IST" name="verifyStorePageedit" finished-at="2022-08-30T13:51:34 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorePageedit -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:32 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:32 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -316,11 +320,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyStorePageedit()[pri:25, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:54 IST" name="verifyStorePageedit" finished-at="2022-07-25T10:42:56 IST" duration-ms="1238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStorePageedit -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:56 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:34 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:34 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,15 +331,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyStorePagedel()[pri:26, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:56 IST" name="verifyStorePagedel" finished-at="2022-07-25T10:42:56 IST" duration-ms="721" status="PASS">
+        <test-method signature="verifyStorePagedel()[pri:26, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:34 IST" name="verifyStorePagedel" finished-at="2022-08-30T13:51:34 IST" duration-ms="846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStorePagedel -->
-        <test-method signature="verifynavigatepeoplepage()[pri:27, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:56 IST" name="verifynavigatepeoplepage" finished-at="2022-07-25T10:42:58 IST" duration-ms="1401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifynavigatepeoplepage -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:56 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:34 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:34 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,7 +346,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:58 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:58 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifynavigatepeoplepage()[pri:27, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:34 IST" name="verifynavigatepeoplepage" finished-at="2022-08-30T13:51:36 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynavigatepeoplepage -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:36 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:36 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,11 +361,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyPeoplepageaddwaiter()[pri:28, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:58 IST" name="verifyPeoplepageaddwaiter" finished-at="2022-07-25T10:42:58 IST" duration-ms="626" status="PASS">
+        <test-method signature="verifyPeoplepageaddwaiter()[pri:28, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:36 IST" name="verifyPeoplepageaddwaiter" finished-at="2022-08-30T13:51:36 IST" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPeoplepageaddwaiter -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:58 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:36 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:36 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,11 +376,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyPeoplepageaddwaiterdetails()[pri:29, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:58 IST" name="verifyPeoplepageaddwaiterdetails" finished-at="2022-07-25T10:42:59 IST" duration-ms="610" status="PASS">
+        <test-method signature="verifyPeoplepageaddwaiterdetails()[pri:29, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:36 IST" name="verifyPeoplepageaddwaiterdetails" finished-at="2022-08-30T13:51:37 IST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPeoplepageaddwaiterdetails -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:59 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:37 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:37 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -391,11 +391,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyPeoplepageaddwaiterdetailssubmit()[pri:30, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:42:59 IST" name="verifyPeoplepageaddwaiterdetailssubmit" finished-at="2022-07-25T10:43:00 IST" duration-ms="885" status="PASS">
+        <test-method signature="verifyPeoplepageaddwaiterdetailssubmit()[pri:30, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:37 IST" name="verifyPeoplepageaddwaiterdetailssubmit" finished-at="2022-08-30T13:51:38 IST" duration-ms="984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPeoplepageaddwaiterdetailssubmit -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-07-25T10:43:00 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:43:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestStore@3bb9a3ff]" started-at="2022-08-30T13:51:38 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:38 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -407,8 +407,8 @@
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.Qalegendproject.Scripts.TestStore -->
-      <class name="com.Qalegendproject.Scripts.TestClas">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:25 IST" name="beforeTest" finished-at="2022-07-25T10:42:30 IST" duration-ms="4438" status="PASS">
+      <class name="com.Qalegendproject.Scripts.TestLogin">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:00 IST" name="beforeTest" finished-at="2022-08-30T13:51:07 IST" duration-ms="7143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -419,7 +419,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="verifyLoginValidUserInvalidPass(java.lang.String,java.lang.String)[pri:1, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:30 IST" name="verifyLoginValidUserInvalidPass" data-provider="ValidUserInvalidPass" finished-at="2022-07-25T10:42:31 IST" duration-ms="797" status="PASS">
+        <test-method signature="verifyLoginValidUserInvalidPass(java.lang.String,java.lang.String)[pri:1, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:07 IST" name="verifyLoginValidUserInvalidPass" data-provider="ValidUserInvalidPass" finished-at="2022-08-30T13:51:08 IST" duration-ms="971" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -435,18 +435,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginValidUserInvalidPass -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:31 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:08 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:08 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginValidUserInvalidPass status=SUCCESS method=TestClas.verifyLoginValidUserInvalidPass(java.lang.String,java.lang.String)[pri:1, instance:com.Qalegendproject.Scripts.TestClas@32eff876] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginValidUserInvalidPass status=SUCCESS method=TestLogin.verifyLoginValidUserInvalidPass(java.lang.String,java.lang.String)[pri:1, instance:com.Qalegendproject.Scripts.TestLogin@32eff876] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyLoginInvalidUserValidPass(java.lang.String,java.lang.String)[pri:2, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:31 IST" name="verifyLoginInvalidUserValidPass" data-provider="InvalidUserValidPass" finished-at="2022-07-25T10:42:32 IST" duration-ms="684" status="PASS">
+        <test-method signature="verifyLoginInvalidUserValidPass(java.lang.String,java.lang.String)[pri:2, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:08 IST" name="verifyLoginInvalidUserValidPass" data-provider="InvalidUserValidPass" finished-at="2022-08-30T13:51:09 IST" duration-ms="720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -462,18 +462,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginInvalidUserValidPass -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:32 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:09 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginInvalidUserValidPass status=SUCCESS method=TestClas.verifyLoginInvalidUserValidPass(java.lang.String,java.lang.String)[pri:2, instance:com.Qalegendproject.Scripts.TestClas@32eff876] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginInvalidUserValidPass status=SUCCESS method=TestLogin.verifyLoginInvalidUserValidPass(java.lang.String,java.lang.String)[pri:2, instance:com.Qalegendproject.Scripts.TestLogin@32eff876] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:32 IST" name="verifyLoginInvaliduserInvalidPass" data-provider="InvalidUserInvalidPass" finished-at="2022-07-25T10:42:32 IST" duration-ms="664" status="PASS">
+        <test-method signature="verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:09 IST" name="verifyLoginInvaliduserInvalidPass" data-provider="InvalidUserInvalidPass" finished-at="2022-08-30T13:51:10 IST" duration-ms="651" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -489,18 +489,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginInvaliduserInvalidPass -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:32 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:10 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:10 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginInvaliduserInvalidPass status=SUCCESS method=TestClas.verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestClas@32eff876] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginInvaliduserInvalidPass status=SUCCESS method=TestLogin.verifyLoginInvaliduserInvalidPass(java.lang.String,java.lang.String)[pri:3, instance:com.Qalegendproject.Scripts.TestLogin@32eff876] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method signature="verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:32 IST" name="verifyLoginValidUserValidPass" data-provider="ValidUserValidPass" finished-at="2022-07-25T10:42:35 IST" duration-ms="2351" status="PASS">
+        <test-method signature="verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:10 IST" name="verifyLoginValidUserValidPass" data-provider="ValidUserValidPass" finished-at="2022-08-30T13:51:12 IST" duration-ms="2511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -516,22 +516,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginValidUserValidPass -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:42:35 IST" name="takeScreenShotOnFailure" finished-at="2022-07-25T10:42:35 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:12 IST" name="takeScreenShotOnFailure" finished-at="2022-08-30T13:51:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginValidUserValidPass status=SUCCESS method=TestClas.verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestClas@32eff876] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginValidUserValidPass status=SUCCESS method=TestLogin.verifyLoginValidUserValidPass(java.lang.String,java.lang.String)[pri:4, instance:com.Qalegendproject.Scripts.TestLogin@32eff876] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Qalegendproject.Scripts.TestClas@32eff876]" started-at="2022-07-25T10:43:00 IST" name="afterTest" finished-at="2022-07-25T10:43:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Qalegendproject.Scripts.TestLogin@32eff876]" started-at="2022-08-30T13:51:38 IST" name="afterTest" finished-at="2022-08-30T13:51:38 IST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.Qalegendproject.Scripts.TestClas -->
+      </class> <!-- com.Qalegendproject.Scripts.TestLogin -->
     </test> <!-- TestOne -->
   </suite> <!-- Suite -->
 </testng-results>
